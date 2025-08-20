@@ -1,4 +1,10 @@
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     text-align: center;
@@ -12,6 +18,13 @@ h4 {
 
 p {
     color: hsl(216, 15%, 48%);
+}
+
+.content {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -30,4 +43,14 @@ p {
     width: 18rem;
     height: 18rem;
     margin-bottom: 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }

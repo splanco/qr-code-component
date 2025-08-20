@@ -11,14 +11,18 @@ body {
     margin: 0;
 }
 
+h4, p {
+    margin: 8px 0;
+}
+
 h4 {
     color: hsl(218, 44%, 22%);
     font-size: 2ch;
-    margin: 1rem 0;
 }
 
 p {
     color: hsl(216, 15%, 48%);
+    font-size: 15px;
 }
 
 .content {
@@ -33,16 +37,16 @@ p {
     flex-direction: column;
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    width: 18rem;
-    height: 30rem;
+    width: 16rem;
+    height: 27rem;
     padding: 1rem;
     border-radius: 12px;
 }
 
 .qr-image {
     border-radius: 10px;
-    width: 18rem;
-    height: 18rem;
+    width: 16rem;
+    height: 16rem;
     margin-bottom: 1rem;
 }
 
